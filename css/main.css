@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family:'Titillium Web', sans-serif; ;
+  font-size: 18px; }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color:#000000;
+    z-index: 99;
+  
+}
+
+
+ul {
+    float:left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+ }
+li {
+      display: block; 
+    }
+a {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1rem;
+        color: #ffffff;
+        font-size: .80rem;
+        font-weight: normal; 
+}
